@@ -9,6 +9,6 @@ COPY ./6_CI_CD/CD /app
 # impostiamo la working directory
 WORKDIR /app
 
-# comando di default
+# comando di default OK
 RUN ls
 CMD ["python", "app.py"]
