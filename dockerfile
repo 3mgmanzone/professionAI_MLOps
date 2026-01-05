@@ -11,4 +11,4 @@ WORKDIR /app
 
 # comando di default
 RUN ls
-CMD["python", "app.py"]
+CMD ["python", "app.py"]
